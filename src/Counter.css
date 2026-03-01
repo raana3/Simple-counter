@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 320px;
+    background-color:rgb(147, 203, 246);
+    display: flex;
+    place-items: center;
+}
+
+.title{
+font-size: 50px;
+font-family: Arial, sans-serif;
+color: rgb(59, 90, 147);
+align-items: center;
+
+}
+
+.card{
+  padding: 30px;
+  border-radius: 15px;
+  width: 800px;
+  text-align: center;
+  background-color:rgb(249, 247, 247);
+  font-family: Arial, sans-serif;
+  color: cornflowerblue;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+  align-items: center;
+  background-color: rgba(79, 78, 78, 0.435);
+  color: rgb(36, 113, 255);
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.result{
+  background-color:rgb(147, 203, 246);
+  width: 100px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px auto;
+  color: rgb(36, 113, 255);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
